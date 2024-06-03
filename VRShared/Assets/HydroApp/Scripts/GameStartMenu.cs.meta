@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: af07645f3014a1347a5b1232afc24251
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainMenu: {instanceID: 0}
+  - options: {instanceID: 0}
+  - about: {instanceID: 0}
+  - startButton: {instanceID: 0}
+  - optionButton: {instanceID: 0}
+  - aboutButton: {instanceID: 0}
+  - quitButton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

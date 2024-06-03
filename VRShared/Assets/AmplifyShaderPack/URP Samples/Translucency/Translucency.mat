@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Translucency
+  m_Shader: {fileID: 4800000, guid: 9405e1b7a1838a34bb2935d97be11b39, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: ef587176460772e40bfe9e09ca19fa7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Depth:
+        m_Texture: {fileID: 2800000, guid: d2fd9f8b51654f87b55f9b4a55249b1d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: eb96b1a70f3aab243b36dc1488da4d69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SS_Mask_Map:
+        m_Texture: {fileID: 2800000, guid: ef8c630a6e4a1814db6f5e4cb4206122, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 24b7ed9293c712a4bb5e0e66badcc3e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Thickness_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyDepth:
+        m_Texture: {fileID: 2800000, guid: ef8c630a6e4a1814db6f5e4cb4206122, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Float0: 0
+    - _Intensity: 24.27
+    - _Metallic_Intensity: 0.348
+    - _Normal_Strength: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ScatteringPower: 1
+    - _Shininess: 0.01
+    - _Smoothness_Intensity: 3.57
+    - _Softness: 0
+    - _Specular: 0.2
+    - _Test: 0.1
+    - _TransAmbient: 0.15
+    - _TransDirect: 0.9
+    - _TransNormal: 0.6
+    - _TransNormalDistortion: 0.059
+    - _TransScattering: 2
+    - _TransShadow: 0.5
+    - _TransStrength: 0.7
+    - _Translucency: 9.8
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.8235294, g: 0.01703852, b: 0, a: 0}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SS_Colour: {r: 1, g: 0.07358477, b: 0.07358477, a: 1}
+    - _Tint: {r: 0.854902, g: 0.7803922, b: 0.7843138, a: 1}
+    - _TranslucencyColor: {r: 0.8235294, g: 0.021205474, b: 0, a: 0}
+    - _TransmissionParams: {r: 0.1, g: 6, b: -2.03, a: 16.95}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

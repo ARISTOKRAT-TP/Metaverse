@@ -1,0 +1,34 @@
+{
+    "name": "CustonInputACtions",
+    "maps": [
+        {
+            "name": "Pause",
+            "id": "75a6d769-c589-426c-ab27-749f3cebde8e",
+            "actions": [
+                {
+                    "name": "MenuPressed",
+                    "type": "Button",
+                    "id": "323d8cb5-1221-46e3-aa2d-c68465d97303",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b4940bc5-f615-4888-abe6-7ffc0cd7aacc",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
