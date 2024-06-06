@@ -3,7 +3,217 @@ guid: a4359c69bbedb4742ae468fd6c584efc
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackPlastic
+    second: {fileID: 2100000, guid: 59dd736e501b81446b6fde71e7937cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_1k
+    second: {fileID: 2100000, guid: 91636f3e006e2a744b6c2a400e0dbea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_1k.001
+    second: {fileID: 2100000, guid: 6eeb87b43fb8e384092198e8641befbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteriorWoodFineDark_1k
+    second: {fileID: 2100000, guid: 95e88f568bab4e84cbf911926a89e98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madeira
+    second: {fileID: 2100000, guid: fbf704be60c0ba94db47769ce2f418ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material  de madeira.001
+    second: {fileID: 2100000, guid: 5f78ba03b56929b4aa797dfb1958e36c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: a7128fb27aa337c4497419acace04451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: bd0cb17a07df56d4596266f898c447f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 90109ec06b3af054bbfd0098f2538972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 2b7cbcf5ee76ada44956668bded83ae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: b0c502f7b1e1f3c4e907579e20b40244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: dee41c7edb718c84a91324801523b5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: c03f0570cfdd8c346a54a727fbab62bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: c543fa0a3da35ea42b023ddf3658c795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: c2781f09d6204724f83f6544733c85ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: e9b4fe0738dc1f64980169a4f6640988, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 077062d1dd339c541af7f5724cae2042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal preto.001
+    second: {fileID: 2100000, guid: 4e2236f9c719dee41ab34f44bc40a97e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.001
+    second: {fileID: 2100000, guid: 6e1d30bacc9950049b56f4b0fa101b54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.002
+    second: {fileID: 2100000, guid: d9fe795fa7de0b8448ee71715fe83d9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Notice
+    second: {fileID: 2100000, guid: 96041fceca6024c4c95ad9cd51680021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parafuso cromado.001
+    second: {fileID: 2100000, guid: 8af44c580c7b98f4c8bce87007ddba37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaintiles_1k
+    second: {fileID: 2100000, guid: 3c63274c8b15dcb45b6eecdeae428394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaintiles_1k.001
+    second: {fileID: 2100000, guid: 01eb5b3b178bec840be06be7caa8655a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 07b769b661e1d034ab7768bf0fbf6fa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.001
+    second: {fileID: 2100000, guid: 4b5098d8ee696a2469b8fcdaa861d4f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_White
+    second: {fileID: 2100000, guid: 15058997c2e73d04e9e94ba71d4693cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastico preto
+    second: {fileID: 2100000, guid: 615591366ccbb014a87e737ea3447c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suporte de plastico Plastico.001
+    second: {fileID: 2100000, guid: bf4818ce8bcff89419f165531797c99b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tecido_
+    second: {fileID: 2100000, guid: 220867d31e56a9949a3d064e8974504f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_LandscapeCity0014_4_M
+    second: {fileID: 2100000, guid: a06ee3a5e7bd3ef4eb5b14fe6202b974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube
+    second: {fileID: 2100000, guid: 15ba4cb750bd9014bb51491a7a17131c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Uhr_2
+    second: {fileID: 2100000, guid: 29d289c501cb16148b11a51061619e2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls and Ceiling
+    second: {fileID: 2100000, guid: 1b9b4aadc9af0354c83a4e2e48732d08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 37999c77b820e0b4985cca8cdbe26c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFineDark003_1K
+    second: {fileID: 2100000, guid: 1b3b24a244dea994baa1c86280a6097d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cadeira charles plastico.000
+    second: {fileID: 2100000, guid: 1cdcd7d2952fa9a46a0aedd1099adf9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: min_Zeiger
+    second: {fileID: 2100000, guid: 33ab490dc45bd58478df20adab7f40dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastico cinza
+    second: {fileID: 2100000, guid: 0bef4f4a32e8f6c4d88a65bc9695d696, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: time-table-2
+    second: {fileID: 2100000, guid: c5b254b5c31bd5641a172a1ab0efe5cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white board
+    second: {fileID: 2100000, guid: b5b70172ffbe3fd429892b68a17a28c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B"
+    second: {fileID: 2100000, guid: 0902e87f62b75fd44be959e6a2d55727, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

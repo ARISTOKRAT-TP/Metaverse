@@ -15,7 +15,7 @@ public class AvatarSelection : MonoBehaviour
         if (instance == null) {instance = this;}
      }
      public GameObject[] characters;
-     private string[] avatarName = {"TestRigAnn","ArtRig","KateAvatar","ArthurAvatar"};
+     public string[] avatarName = {"TestRigAnn","ArtRig","KateAvatar","ArthurAvatar","RomanAvatar"};
      public string avatarPath;
      public string sceneName = "HydroArena";
 
