@@ -28,16 +28,30 @@ public class ScaleChange : NetworkBehaviour
 
     void Start()
     {
+        if (pipes == null || pipes.Length == 0 || popl_up == null || popl_down == null ||
+            xRKnob == null || dial == null || latr == null || textsMesh == null || 
+            textsMesh.Length == 0 || temperature == null || audioSource == null || toggle == null ||
+            checkboxes == null || checkboxes.Length == 0)
+        {
+            Debug.LogError("One or more components are not set in the inspector");
+            return;
+        }
         temperaturevalue = Random.Range(20, 25);
         temperature.text = "Температура воды:" + temperaturevalue.ToString() + " C";
     }
 
-    public void fakeOnClick()
+   public void fakeOnClick()
     {
         if (checkboxes[2].isOn == true && checkboxes[1].isOn == true)
         {
-            checkboxes[3].isOn = true;
+            Rpc_FakeOnClick();
         }
+    }
+
+    [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
+    private void Rpc_FakeOnClick()
+    {
+        checkboxes[3].isOn = true;
     }
 
     public void ChangeScalePipes()

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4572342685231773027}
   - component: {fileID: 357065829356754536}
+  - component: {fileID: 330665670512348902}
   m_Layer: 7
   m_Name: SpeakIndicator
   m_TagString: Untagged
@@ -45,6 +46,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c3614af7804e641a4827c5009cda25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &330665670512348902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472410992395560570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1 &3140846635254667216
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,6 +76,7 @@ GameObject:
   - component: {fileID: 934049636564849707}
   - component: {fileID: 3702108350194446096}
   - component: {fileID: 3627834701434492060}
+  - component: {fileID: 6647407455949032571}
   m_Layer: 7
   m_Name: User Name
   m_TagString: Untagged
@@ -230,6 +250,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c3614af7804e641a4827c5009cda25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6647407455949032571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140846635254667216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1 &4290483811829477728
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +675,10 @@ MonoBehaviour:
   - {fileID: 8020270738522436828}
   - {fileID: 4645078150387486733}
   - {fileID: 4645078150387486735}
+  - {fileID: 330665670512348902}
+  - {fileID: 470854112906784304}
+  - {fileID: 658995624513399862}
+  - {fileID: 6647407455949032571}
   - {fileID: 3609891833218908253}
   - {fileID: 4645078150527547820}
   - {fileID: 4645078150527547822}
@@ -830,6 +872,7 @@ GameObject:
   - component: {fileID: 6261310238454700624}
   - component: {fileID: 4619352774423589656}
   - component: {fileID: 5192412154182446428}
+  - component: {fileID: 658995624513399862}
   m_Layer: 7
   m_Name: Image
   m_TagString: Untagged
@@ -895,6 +938,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &658995624513399862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849434247518686344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1 &9087240079872888185
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +968,7 @@ GameObject:
   - component: {fileID: 7159115406496530271}
   - component: {fileID: 4467514601585280575}
   - component: {fileID: 683314269186728514}
+  - component: {fileID: 470854112906784304}
   m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
@@ -996,6 +1058,24 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &470854112906784304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087240079872888185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1001 &3905352933188950795
 PrefabInstance:
   m_ObjectHideFlags: 0

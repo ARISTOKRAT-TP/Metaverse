@@ -1,7 +1,7 @@
 using System;
+using Fusion;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
-using Fusion;
 
 namespace UnityEngine.XR.Content.Interaction
 {
@@ -117,7 +117,7 @@ namespace UnityEngine.XR.Content.Interaction
 
         [SerializeField]
         [Tooltip("Events to trigger when the knob is rotated")]
-        ValueChangeEvent m_OnValueChange = new ValueChangeEvent();
+        public ValueChangeEvent m_OnValueChange = new ValueChangeEvent();
 
         IXRSelectInteractor m_Interactor;
 
