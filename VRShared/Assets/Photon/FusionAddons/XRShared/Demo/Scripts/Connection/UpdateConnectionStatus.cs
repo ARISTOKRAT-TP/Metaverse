@@ -59,7 +59,7 @@ public class UpdateConnectionStatus : MonoBehaviour, INetworkRunnerCallbacks
 
     void OnWillConnect()
     {
-        DebugLog("Starting connection. Please wait...");
+        DebugLog("Выполняется подключение. Пожалуйста, подождите...");
     }
 
     #region INetworkRunnerCallbacks
@@ -70,40 +70,40 @@ public class UpdateConnectionStatus : MonoBehaviour, INetworkRunnerCallbacks
 
         if (player == runner.LocalPlayer)
         {
-            DebugLog("You have joined !");
+            DebugLog("Вы присоединились!");
         }
         else
-            DebugLog("A player joined !");
+            DebugLog("Пользователь присоединился!");
     }
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
     {
         audioSource.PlayOneShot(playerLeft);
-        DebugLog("A player left !");
+        DebugLog("Пользователь отключился");
     }
 
 
     public void OnShutdown(NetworkRunner runner, ShutdownReason shutdownReason)
     {
-        DebugLog($"Shutdown : { shutdownReason} ", permanentError: true);
+        DebugLog($"Выключение : { shutdownReason} ", permanentError: true);
         audioSource.PlayOneShot(shutdown);
     }
 
     public void OnConnectedToServer(NetworkRunner runner)
     {
-        DebugLog("Connected to the server");
+        DebugLog("Подключился к серверу");
         audioSource.PlayOneShot(connectedToServer);
     }
 
     public void OnDisconnectedFromServer(NetworkRunner runner, NetDisconnectReason reason)
     {
-        DebugLog($"Disconnected From Server: {runner.SessionInfo} ({reason})", permanentError: true);
+        DebugLog($"Отключился от сервера: {runner.SessionInfo} ({reason})", permanentError: true);
         audioSource.PlayOneShot(disconnectedFromServer);
     }
 
     public void OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason)
     {
-        DebugLog($"Connect Failed : { reason} ", permanentError: true);
+        DebugLog($"Подключение не удалось : { reason} ", permanentError: true);
         audioSource.PlayOneShot(connectFailed);
     }
     #endregion

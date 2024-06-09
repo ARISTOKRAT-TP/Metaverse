@@ -13,33 +13,32 @@ public class ActivateHydro : NetworkBehaviour
     public XRKnob dial;
     public XRLever toggle;
     public Toggle checkbox;
-    // Start is called before the first frame update
-    void Start()
+    public void ActivateMeh()
     {
+        if (toggle.value == true)
+        {
+            if (dial.value < 0.15f)
+            {
+                Rpc_ActivateMeh(true, true, Color.red * 100, true);
+            }
+            else if (dial.value < 0.65f && dial.value > 0.45f)
+            {
+                Rpc_ActivateMeh(false, false, Color.red, false);
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    [Rpc(RpcSources.All, RpcTargets.All)]
+    private void Rpc_ActivateMeh(bool checkboxState, bool lampState, Color emissionColor, bool audioState)
     {
-    }
-    public void ActivateMeh(){
-    
-        if (toggle.value == true) {
-
-        if (dial.value < 0.15)
+        // Убедитесь, что обновления состояния происходят корректно
+        checkbox.isOn = checkboxState;
+        lamp.SetActive(lampState);
+        Renderer renderer = lamprend.GetComponent<Renderer>();
+        if (renderer != null && renderer.materials.Length > 1)
         {
-            checkbox.isOn = true;
-         lamp.SetActive(true);
-         lamprend.GetComponent<Renderer>().materials[1].SetColor("_EmissionColor", Color.red*100);
-         audioSource.SetActive(true);
+            renderer.materials[1].SetColor("_EmissionColor", emissionColor);
         }
-        else if (dial.value < 0.65 && dial.value > 0.45)
-        {
-            checkbox.isOn = false;
-         lamp.SetActive(false);
-         lamprend.GetComponent<Renderer>().materials[1].SetColor("_EmissionColor", Color.red);
-         audioSource.SetActive(false);
-        }
-        }
+        audioSource.SetActive(audioState);
     }
 }

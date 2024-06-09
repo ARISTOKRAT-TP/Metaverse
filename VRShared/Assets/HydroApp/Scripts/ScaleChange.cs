@@ -32,12 +32,18 @@ public class ScaleChange : NetworkBehaviour
         temperature.text = "Температура воды:" + temperaturevalue.ToString() + " C";
     }
 
-    public void fakeOnClick()
+   public void fakeOnClick()
     {
         if (checkboxes[2].isOn == true && checkboxes[1].isOn == true)
         {
-            checkboxes[3].isOn = true;
+            Rpc_FakeOnClick();
         }
+    }
+
+    [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
+    private void Rpc_FakeOnClick()
+    {
+        checkboxes[3].isOn = true;
     }
 
     public void ChangeScalePipes()

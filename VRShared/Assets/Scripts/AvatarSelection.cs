@@ -20,7 +20,10 @@ public class AvatarSelection : MonoBehaviour
      public string sceneName = "HydroArena";
 
 	public int selectedCharacter = 0;
-
+public void AddSceneName(string name)
+	{
+		sceneName = name;
+	}
 	public void NextCharacter()
 	{
 		characters[selectedCharacter].SetActive(false);

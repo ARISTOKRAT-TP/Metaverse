@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4572342685231773027}
   - component: {fileID: 357065829356754536}
+  - component: {fileID: 2850224029334385725}
   m_Layer: 7
   m_Name: SpeakIndicator
   m_TagString: Untagged
@@ -45,6 +46,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c3614af7804e641a4827c5009cda25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2850224029334385725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472410992395560570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1 &3140846635254667216
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,6 +76,7 @@ GameObject:
   - component: {fileID: 934049636564849707}
   - component: {fileID: 3702108350194446096}
   - component: {fileID: 3627834701434492060}
+  - component: {fileID: 8881420428983323496}
   m_Layer: 7
   m_Name: User Name
   m_TagString: Untagged
@@ -104,7 +124,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -74730757435934861, guid: d17447a07a2b75c42a34d5a0665aba24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -148,8 +168,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: UserName
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d17447a07a2b75c42a34d5a0665aba24, type: 2}
+  m_sharedMaterial: {fileID: -74730757435934861, guid: d17447a07a2b75c42a34d5a0665aba24, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -230,6 +250,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c3614af7804e641a4827c5009cda25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8881420428983323496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140846635254667216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1 &4290483811829477728
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +674,10 @@ MonoBehaviour:
   - {fileID: 7224224389113645389}
   - {fileID: 4645078150387486733}
   - {fileID: 4645078150387486735}
+  - {fileID: 2850224029334385725}
+  - {fileID: 6726468377915366351}
+  - {fileID: 2697525364880777802}
+  - {fileID: 8881420428983323496}
   - {fileID: 3609891833218908253}
   - {fileID: 4645078150527547820}
   - {fileID: 4645078150527547822}
@@ -829,6 +871,7 @@ GameObject:
   - component: {fileID: 6261310238454700624}
   - component: {fileID: 4619352774423589656}
   - component: {fileID: 5192412154182446428}
+  - component: {fileID: 2697525364880777802}
   m_Layer: 7
   m_Name: Image
   m_TagString: Untagged
@@ -894,6 +937,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2697525364880777802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849434247518686344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1 &9087240079872888185
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +967,7 @@ GameObject:
   - component: {fileID: 7159115406496530271}
   - component: {fileID: 4467514601585280575}
   - component: {fileID: 683314269186728514}
+  - component: {fileID: 6726468377915366351}
   m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
@@ -995,6 +1057,24 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6726468377915366351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087240079872888185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1001 &5374100038085029782
 PrefabInstance:
   m_ObjectHideFlags: 0
