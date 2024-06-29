@@ -1134,16 +1134,32 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -2062689945443171260, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
+      propertyPath: m_Name
+      value: eyelashes
+      objectReference: {fileID: 0}
+    - target: {fileID: -2062689945443171260, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1010076948478524465, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
+      propertyPath: m_Name
+      value: eye.L
       objectReference: {fileID: 0}
     - target: {fileID: -1010076948478524465, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -884195338869268665, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
+      propertyPath: m_Name
+      value: eye.R
+      objectReference: {fileID: 0}
+    - target: {fileID: -884195338869268665, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 280085550933619718, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
+      propertyPath: m_Name
+      value: head
       objectReference: {fileID: 0}
     - target: {fileID: 280085550933619718, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
       propertyPath: m_Layer
@@ -1173,6 +1189,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 994ed435868605448a077d0b0d2205ac, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 379b17ca6f70e914b94a7ffc31bbbaf1, type: 3}
 --- !u!4 &68146701852339459 stripped
