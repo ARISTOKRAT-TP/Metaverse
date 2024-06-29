@@ -12330,7 +12330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2124721015728915630, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
       propertyPath: m_Name
-      value: eyelashs
+      value: eyelashes
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
       propertyPath: m_Controller
