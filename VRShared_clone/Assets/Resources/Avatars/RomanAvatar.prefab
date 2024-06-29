@@ -1396,15 +1396,15 @@ MonoBehaviour:
       useAnimatedBendNormal: 0
     locomotion:
       weight: 1
-      footDistance: 0.3
-      stepThreshold: 0.4
+      footDistance: 0.2
+      stepThreshold: 0.1
       angleThreshold: 60
       comAngleMlp: 1
       maxVelocity: 0.4
       velocityFactor: 0.4
       maxLegStretch: 1
       rootSpeed: 20
-      stepSpeed: 3
+      stepSpeed: 1.7
       stepHeight:
         serializedVersion: 2
         m_Curve:

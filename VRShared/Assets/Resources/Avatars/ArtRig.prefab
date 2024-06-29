@@ -667,6 +667,7 @@ MonoBehaviour:
   - {fileID: 4645078151347934342}
   - {fileID: 8169312639404317418}
   - {fileID: 1876166264079793086}
+  - {fileID: 8327427504763920807}
   - {fileID: 167371485532794278}
   - {fileID: 1908936781451135078}
   - {fileID: 7878425023307796550}
@@ -1623,6 +1624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shutovavatar
       objectReference: {fileID: 0}
+    - target: {fileID: 2253642204691711036, guid: 40cf7e66dca89e64ebb1f4a38524b53d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 40cf7e66dca89e64ebb1f4a38524b53d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -1991,15 +1996,15 @@ MonoBehaviour:
       useAnimatedBendNormal: 0
     locomotion:
       weight: 1
-      footDistance: 0.3
-      stepThreshold: 0.4
-      angleThreshold: 60
-      comAngleMlp: 1
+      footDistance: 0.2
+      stepThreshold: 0.1
+      angleThreshold: 80
+      comAngleMlp: 60
       maxVelocity: 0.4
       velocityFactor: 0.4
       maxLegStretch: 1
       rootSpeed: 20
-      stepSpeed: 3
+      stepSpeed: 1.7
       stepHeight:
         serializedVersion: 2
         m_Curve:
@@ -2102,6 +2107,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2224258185234420852, guid: 40cf7e66dca89e64ebb1f4a38524b53d, type: 3}
   m_PrefabInstance: {fileID: 7245516667755978242}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8920422087546247742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2253642204691711036, guid: 40cf7e66dca89e64ebb1f4a38524b53d, type: 3}
+  m_PrefabInstance: {fileID: 7245516667755978242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8327427504763920807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920422087546247742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
 --- !u!1001 &8260367345635405829
 PrefabInstance:
   m_ObjectHideFlags: 0
