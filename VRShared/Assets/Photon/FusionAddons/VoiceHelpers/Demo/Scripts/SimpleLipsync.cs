@@ -17,18 +17,19 @@ namespace Fusion.Addons.VoiceHelpers
     {
         public float voiceVolume = 0;
         [Tooltip("A set of renderers displaying possible state of the mouth. one will be picked randomly while speaking")]
-        public List<Renderer> speakingRenderers = new List<Renderer>();
         public Renderer mutedRender;
         public float mouthRefreshDelay = 0.1f;
         public float speakThreshold = 0.001f;
 
         AudioSource audioSource;
+        public Animator animator;
         private bool isMuted = true;
         private float nextMouthUpdate = 0;
 
         protected virtual void Awake()
         {
             audioSource = GetComponent<AudioSource>();
+            // animator = GetComponent<Animator>();
         }
 
 
@@ -68,7 +69,7 @@ namespace Fusion.Addons.VoiceHelpers
             {
                 if (!isMuted)
                 {
-                    CloseMouth();
+                    animator.SetBool("isTalking", true);
                 }
                 isMuted = true;
             }
@@ -76,28 +77,9 @@ namespace Fusion.Addons.VoiceHelpers
             {
                 if (isMuted)
                 {
-                    mutedRender.enabled = false;
+                    animator.SetBool("isTalking", false);
                 }
                 isMuted = false;
-                ShowMouthStep(Random.Range(0, speakingRenderers.Count));
-            }
-        }
-
-        // CloseMouth displays the muted mouth renderer and hide others speaking mouth renderers
-        protected virtual void CloseMouth()
-        {
-            if(mutedRender) mutedRender.enabled = true;
-            ShowMouthStep(-1);
-        }
-
-        // ShowMouthStep displays only one speaking mouth renderer
-        protected virtual void ShowMouthStep(int index)
-        {
-            int i = 0;
-            foreach (var renderer in speakingRenderers)
-            {
-                renderer.enabled = i == index;
-                i++;
             }
         }
         #endregion

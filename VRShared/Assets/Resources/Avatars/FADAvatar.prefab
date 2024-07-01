@@ -700,6 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248ae290ad060564f91fa6d42d00ebf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 8280401674798500089}
   _UserName:
     _length: 0
     _data:
@@ -1157,6 +1158,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -1781628882611861087, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9c57b0c94987f64c90433823c38a1ef, type: 2}
     - target: {fileID: 342729936290184828, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -1168,6 +1173,10 @@ PrefabInstance:
     - target: {fileID: 773897487770893617, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 773897487770893617, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
       propertyPath: m_Name
@@ -1193,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7402483750096178387, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f8274bb39951c0244989e3bc27cae91d, type: 2}
     - target: {fileID: 9186995154844227520, guid: 1b9f770868af9604297f3c327f26a270, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -2191,13 +2204,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voiceVolume: 1
-  speakingRenderers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   mutedRender: {fileID: 0}
   mouthRefreshDelay: 0.1
   speakThreshold: 0.001
+  animator: {fileID: 0}
 --- !u!1001 &8260367345635405829
 PrefabInstance:
   m_ObjectHideFlags: 0

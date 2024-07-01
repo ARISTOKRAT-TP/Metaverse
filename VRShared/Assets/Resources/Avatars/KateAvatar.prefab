@@ -693,6 +693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248ae290ad060564f91fa6d42d00ebf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 4403714088965647519}
   _UserName:
     _length: 0
     _data:
@@ -1529,13 +1530,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voiceVolume: 1
-  speakingRenderers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   mutedRender: {fileID: 0}
   mouthRefreshDelay: 0.1
   speakThreshold: 0.001
+  animator: {fileID: 0}
 --- !u!1001 &7815916924234010894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1543,6 +1541,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4645078151347934340}
     m_Modifications:
+    - target: {fileID: -9188521317306745519, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
+      propertyPath: m_Name
+      value: eyelashes
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1603,6 +1605,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7271483827818197237, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
+      propertyPath: m_Name
+      value: eye.R
+      objectReference: {fileID: 0}
     - target: {fileID: -6942525969457053264, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -1624,8 +1630,16 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3588198126676155906, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
+      propertyPath: m_Name
+      value: head
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588198126676155906, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068301604516396304, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
+      propertyPath: m_Name
+      value: eye.L
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: a3772404035935446b9aa2fe1673ed61, type: 3}
       propertyPath: m_Controller

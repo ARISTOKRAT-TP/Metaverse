@@ -699,6 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248ae290ad060564f91fa6d42d00ebf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1746215014491366699}
   _UserName:
     _length: 0
     _data:
@@ -1215,6 +1216,11 @@ MonoBehaviour:
   applyLayerToChildren: 1
   hideOnAllPlatforms: 1
   hideOnPlatforms: 
+--- !u!95 &1746215014491366699 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 561b79b67fdb1d34aba8b7e4d4155f21, type: 3}
+  m_PrefabInstance: {fileID: 5283101575029889210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1784807341915794664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3344573402201394094, guid: 561b79b67fdb1d34aba8b7e4d4155f21, type: 3}
@@ -2146,13 +2152,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voiceVolume: 1
-  speakingRenderers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   mutedRender: {fileID: 0}
   mouthRefreshDelay: 0.1
   speakThreshold: 0.001
+  animator: {fileID: 0}
 --- !u!1001 &8260367345635405829
 PrefabInstance:
   m_ObjectHideFlags: 0

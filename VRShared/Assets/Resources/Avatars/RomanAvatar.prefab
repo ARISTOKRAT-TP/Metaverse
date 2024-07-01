@@ -696,6 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248ae290ad060564f91fa6d42d00ebf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 8628875403688798166}
   _UserName:
     _length: 0
     _data:
@@ -1082,6 +1083,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 4645078151347934340}
     m_Modifications:
     - target: {fileID: -8840353504514442897, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
+      propertyPath: m_Name
+      value: head
+      objectReference: {fileID: 0}
+    - target: {fileID: -8840353504514442897, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
@@ -1146,12 +1151,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6510356753595264145, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
+      propertyPath: m_Name
+      value: eyelashes
+      objectReference: {fileID: 0}
+    - target: {fileID: -6510356753595264145, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -2561600105861550894, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
+      propertyPath: m_Name
+      value: beard
+      objectReference: {fileID: 0}
+    - target: {fileID: -2561600105861550894, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -750998420346518961, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
+      propertyPath: m_Name
+      value: eye.L
       objectReference: {fileID: 0}
     - target: {fileID: -750998420346518961, guid: 6812daaa342e142429dd6160a86565ec, type: 3}
       propertyPath: m_Layer
@@ -2071,13 +2088,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voiceVolume: 1
-  speakingRenderers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   mutedRender: {fileID: 0}
   mouthRefreshDelay: 0.1
   speakThreshold: 0.001
+  animator: {fileID: 0}
 --- !u!1001 &8260367345635405829
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ using Fusion.Addons.ConnectionManagerAddon;
 public class UserStats : NetworkBehaviour
 {
     private ChangeDetector _changes;
+    public Animator animator;
     [Networked(), OnChangedRender(nameof(UpdateUserName))] 
     public NetworkString<_32> UserName {get; set;}
     [SerializeField] TextMeshPro userNameLabel;
@@ -35,9 +36,11 @@ public class UserStats : NetworkBehaviour
         Image _speakingIndicator = speakingIndicator;
         if (_isSpeaking) {
         _speakingIndicator.enabled = true;
+        animator.SetBool("isTalking", true);
         }
         else {
             _speakingIndicator.enabled = false;
+            animator.SetBool("isTalking", false);
         }
 
     }
