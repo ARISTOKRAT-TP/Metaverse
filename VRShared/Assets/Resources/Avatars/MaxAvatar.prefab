@@ -667,6 +667,7 @@ MonoBehaviour:
   - {fileID: 4645078151347934342}
   - {fileID: 8169312639404317418}
   - {fileID: 1876166264079793086}
+  - {fileID: 5241106645123875630}
   - {fileID: 7577725810912797588}
   - {fileID: 4003201903858291259}
   - {fileID: 5891970017439853228}
@@ -1177,6 +1178,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 994ed435868605448a077d0b0d2205ac, type: 2}
+    - target: {fileID: 6075344892844799141, guid: 561b79b67fdb1d34aba8b7e4d4155f21, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 9186995154844227520, guid: 561b79b67fdb1d34aba8b7e4d4155f21, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -1238,6 +1243,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051300603622176233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localUserLayer: InvisibleForLocalPlayer
+  remoteUserLayer: Default
+  hideLocalAvatar: 1
+  applyLayerToChildren: 1
+  hideOnAllPlatforms: 1
+  hideOnPlatforms: 
+--- !u!1 &2098304803079318559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6075344892844799141, guid: 561b79b67fdb1d34aba8b7e4d4155f21, type: 3}
+  m_PrefabInstance: {fileID: 5283101575029889210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5241106645123875630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098304803079318559}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f24cb2556f0be444fa4332f6780197b4, type: 3}
