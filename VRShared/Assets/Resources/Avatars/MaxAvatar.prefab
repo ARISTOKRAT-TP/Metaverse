@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c75801a670f8c4cae2230a33ca066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handAnimator: {fileID: 0}
+  handAnimator: {fileID: 1746215014491366699}
   gripRightParam: Grip_RIght
   gripLeftParam: Grip_Left
   triggerRightParam: Trigger_Right
