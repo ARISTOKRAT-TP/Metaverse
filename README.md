@@ -11,7 +11,7 @@
 ---
 
 ### 🛠 Технический стек
-* **Engine:** Unity 2022.3.36f1
+* **Engine:** Unity 2021.3.33f1
 * **Multiplayer:** Photon Fusion (Host-Client топология)
 * **VR Rigging:** VRIK (Final IK) — для анимации тела аватара
 * **Platform:** HTC / WMR / Oculus
