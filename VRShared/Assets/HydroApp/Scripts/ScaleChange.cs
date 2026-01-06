@@ -32,6 +32,11 @@ public class ScaleChange : NetworkBehaviour
         temperature.text = "Температура воды:" + temperaturevalue.ToString() + " C";
     }
 
+   [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
+    private void Rpc_FakeOnClick()
+    {
+        checkboxes[3].isOn = true;
+    }
    public void fakeOnClick()
     {
         if (checkboxes[2].isOn == true && checkboxes[1].isOn == true)
@@ -40,11 +45,7 @@ public class ScaleChange : NetworkBehaviour
         }
     }
 
-    [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
-    private void Rpc_FakeOnClick()
-    {
-        checkboxes[3].isOn = true;
-    }
+ 
 
     public void ChangeScalePipes()
     {
@@ -63,7 +64,6 @@ public class ScaleChange : NetworkBehaviour
     {
         Vector3[] newSize = new Vector3[pipes.Length];
         
-        // Обновление состояния чекбоксов
         UpdateCheckboxes(dialValue, latrValue, xRKnobValue, toggleValue);
 
         if (dialValue < 0.15 && toggleValue == true)
@@ -181,7 +181,6 @@ public class ScaleChange : NetworkBehaviour
     {
         if (Object.HasStateAuthority)
         {
-            // Обновление размеров труб на владельце состояния
             Vector3[] newSize = new Vector3[pipes.Length];
             for (int i = 0; i < pipes.Length; i++)
             {

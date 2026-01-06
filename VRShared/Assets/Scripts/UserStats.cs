@@ -26,7 +26,7 @@ public class UserStats : NetworkBehaviour
 {
     if (this.HasStateAuthority)
     {
-        UserName = ConnectionManager.instance._userName; // дописать
+        UserName = ConnectionManager.instance._userName; // add functionality
         if (instance == null) {instance = this;}
     }
 }

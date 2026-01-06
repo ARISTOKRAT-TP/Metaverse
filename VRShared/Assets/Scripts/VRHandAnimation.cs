@@ -4,14 +4,13 @@ using Fusion;
 
 public class VRHandAnimation : NetworkBehaviour
 {
-    // Ссылки на компоненты
     public Animator handAnimator;
     public string gripRightParam = "Grip_Right";
     public string gripLeftParam = "Grip_Left";
     public string triggerRightParam = "Trigger_Right";
     public string triggerLeftParam = "Trigger_Left";
 
-    // Input Action References для контроллеров
+
     public InputActionProperty rightSelectAction;
     public InputActionProperty leftSelectAction;
     public InputActionProperty rightTriggerAction;
@@ -24,19 +23,18 @@ public class VRHandAnimation : NetworkBehaviour
 
     void Update()
     {
-        // Проверка, является ли этот объект локально управляемым
         if (Object.HasInputAuthority)
         {
-            // Считывание данных с контроллеров
+            // Read controller data
             gripRight = rightSelectAction.action.ReadValue<float>();
             gripLeft = leftSelectAction.action.ReadValue<float>();
             triggerRight = rightTriggerAction.action.ReadValue<float>();
             triggerLeft = leftTriggerAction.action.ReadValue<float>();
 
-            // Обновление анимации локально
+            // local
             UpdateHandAnimation(gripRight, gripLeft, triggerRight, triggerLeft);
 
-            // Отправка данных через сеть
+            // network
             RPC_UpdateHandAnimation(gripRight, gripLeft, triggerRight, triggerLeft);
         }
     }
@@ -49,7 +47,7 @@ public class VRHandAnimation : NetworkBehaviour
 
     private void UpdateHandAnimation(float gripR, float gripL, float triggerR, float triggerL)
     {
-        // Обновление параметров анимации
+        // update anim params
         handAnimator.SetFloat(gripRightParam, gripR);
         handAnimator.SetFloat(gripLeftParam, gripL);
         handAnimator.SetFloat(triggerRightParam, triggerR);

@@ -7,7 +7,6 @@ using Fusion;
 public class TalkStatus : MonoBehaviour
 {
     private Recorder recorder;
-    // Start is called before the first frame update
     private void Awake()
     {
 
@@ -17,7 +16,6 @@ public class TalkStatus : MonoBehaviour
             recorder = GetComponent<Recorder>();
         }
     }
-    // Update is called once per frame
     void Update()
     {
         if (UserStats.instance) {

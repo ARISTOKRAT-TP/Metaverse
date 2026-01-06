@@ -10,7 +10,6 @@ public class AvatarSelection : MonoBehaviour
     public static AvatarSelection instance;
     public string usname;
     [SerializeField] TMP_InputField nameInputField;
-     // Start is called before the first frame update
      void Start() {
         if (instance == null) {instance = this;}
      }

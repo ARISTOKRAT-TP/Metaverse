@@ -15,7 +15,6 @@ public class AnimateOnInput : MonoBehaviour
     public List<AnimationInput> animationInputs;
     public Animator animator;
 
-    // Update is called once per frame
     void Update()
     {
         foreach (var item in animationInputs)
